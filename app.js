@@ -13,6 +13,9 @@ for(let i = 0; i<sectBtn.length; i++)
         this .className += 'active-btn';
     })
 }
+
+// Section active class
+
 }
 PageTransitions();
 
