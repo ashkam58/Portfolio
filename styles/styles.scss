@@ -60,7 +60,7 @@ section{
 .sec1{
 display: none;
 transform: translateY(0) scale(1);
-background-color: #27AE60;
+background-color: rgb(0, 0, 0);
 }
 
 .sec2{
@@ -89,6 +89,9 @@ background-color: #27AE60;
     transform: translateY(0) scale(1);
     background-color: #9327ae;
 
+    }
+    .active{
+        display: block;
     }
 
 
