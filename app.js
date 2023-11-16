@@ -16,7 +16,6 @@ for(let i = 0; i<sectBtn.length; i++)
 
 // Section active class
 allSections.addEventListener('click',(e)=>{
-    console.log(e.target);
     const id = e.target.dataset.id;
     if(id){
         //remove selected from the other button
